@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gutenbergonomasticsexplorer"
+version = "0.1.0"
+description = ""
+authors = ["thenodev <till.nikolaus.schaland@web.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.2"
+langchain = "^0.0.217"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
