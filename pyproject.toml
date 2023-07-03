@@ -7,14 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-django = "^4.2.2"
-langchain = "^0.0.217"
-pandas = "^2.0.2"
-rdflib = "^6.3.2"
+cohere = "^4.11.2"
+langchain = "^0.0.222"
 
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.23.3"
+ipykernel = "^6.24.0"
 
 [build-system]
 requires = ["poetry-core"]
